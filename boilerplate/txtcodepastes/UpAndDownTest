@@ -1,0 +1,39 @@
+robot.odo.whileController(()->robot.oSlides.setSpeci());
+telemetry.addData("busy: ", robot.oSlides.busy);
+telemetry.addData("oEnc: ", -robot.oSlides.oSlideRight.getCurrentPosition());
+telemetry.addData("lsL: ", robot.oSlides.oLSLeft.isPressed());
+telemetry.addData("lsR: ", robot.oSlides.oLSRight.isPressed());
+telemetry.update();
+sleep(5000);
+robot.odo.whileController(()->robot.oSlides.homeOuttake());
+sleep(1000);
+
+robot.odo.whileController(()->robot.oSlides.setSpeci());
+telemetry.addData("busy: ", robot.oSlides.busy);
+telemetry.addData("oEnc: ", -robot.oSlides.oSlideRight.getCurrentPosition());
+telemetry.addData("lsL: ", robot.oSlides.oLSLeft.isPressed());
+telemetry.addData("lsR: ", robot.oSlides.oLSRight.isPressed());
+telemetry.update();
+sleep(5000);
+robot.odo.whileController(()->robot.oSlides.homeOuttake());
+sleep(1000);
+
+robot.odo.whileController(()->robot.oSlides.setSpeci());
+telemetry.addData("busy: ", robot.oSlides.busy);
+telemetry.addData("oEnc: ", -robot.oSlides.oSlideRight.getCurrentPosition());
+telemetry.addData("lsL: ", robot.oSlides.oLSLeft.isPressed());
+telemetry.addData("lsR: ", robot.oSlides.oLSRight.isPressed());
+telemetry.update();
+sleep(5000);
+robot.odo.whileController(()->robot.oSlides.homeOuttake());
+sleep(1000);
+
+robot.odo.whileController(()->robot.oSlides.setSpeci());
+telemetry.addData("busy: ", robot.oSlides.busy);
+telemetry.addData("oEnc: ", -robot.oSlides.oSlideRight.getCurrentPosition());
+telemetry.addData("lsL: ", robot.oSlides.oLSLeft.isPressed());
+telemetry.addData("lsR: ", robot.oSlides.oLSRight.isPressed());
+telemetry.update();
+sleep(5000);
+robot.odo.whileController(()->robot.oSlides.homeOuttake());
+sleep(1000);
